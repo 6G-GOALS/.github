@@ -17,6 +17,22 @@
 - [EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models](#ecopull-sustainable-iot-image-retrieval-empowered-by-tinyml-models)
 - [Real-Time Inference for Distributed Multimodal Systems under Communication Delay Uncertainty](#real-time-inference-for-distributed-multimodal-systems-under-communication-delay-uncertainty)
 
+<!--
+# Template
+## Publication Name
+
+[![DOI](https://img.shields.io/badge/DOI-PAPERDOI)](PAPERLINK) [![arXiv](https://img.shields.io/badge/arXiv-ARXIVCODE.svg)](ARXVILINK)
+
+:octocat: **Repository:** LINKTOREPOSITORY
+
+**Authors:** AUTHORLIST
+
+*Paper published in the PAPERSTATUS*
+
+**Abstract:** ABSTRACT
+
+-->
+
 ## EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models
 
 [![DOI](https://img.shields.io/badge/DOI-10.1109/GLOBECOM52923.2024.10901782-00629b)](https://ieeexplore.ieee.org/document/10901782) [![arXiv](https://img.shields.io/badge/arXiv-2404.14236-b31b1b.svg)](https://arxiv.org/abs/2404.14236)
