@@ -49,6 +49,8 @@
 
 ## Real-Time Inference for Distributed Multimodal Systems under Communication Delay Uncertainty
 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.16225-b31b1b.svg)](https://arxiv.org/abs/2511.16225)
+
 :octocat: **Repository:** https://github.com/victorkreutzfeldt/real-time-inference-distributed-multimodal-systems
 
 **Authors:** Victor Croisfelt, João Henrique Inacio de Souza, Shashi Raj Pandey, Beatriz Soret, Petar Popovski
