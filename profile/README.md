@@ -16,6 +16,7 @@
 
 - [EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models](#ecopull-sustainable-iot-image-retrieval-empowered-by-tinyml-models)
 - [Real-Time Inference for Distributed Multimodal Systems under Communication Delay Uncertainty](#real-time-inference-for-distributed-multimodal-systems-under-communication-delay-uncertainty)
+- [Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access](#low-latency-task-oriented-image-transmission-with-opportunistic-spectrum-access)
 
 <!--
 # Template
@@ -55,8 +56,22 @@
 
 **Authors:** Victor Croisfelt, João Henrique Inacio de Souza, Shashi Raj Pandey, Beatriz Soret, Petar Popovski
 
-*Paper submitted to the IEEE ICC 2026.*
+*Paper presented at IEEE ICC 2026.*
 
 **Abstract:** Connected cyber-physical systems perform inference based on real-time inputs from multiple data streams. Uncertain communication delays across data streams challenge the temporal flow of the inference process. State-of-the-art (SotA) non-blocking inference methods rely on a reference-modality paradigm, requiring one modality input to be fully received before processing, while depending on costly offline profiling. We propose a novel, neuro-inspired non-blocking inference paradigm that primarily employs adaptive temporal windows of integration (TWIs) to dynamically adjust to stochastic delay patterns across heterogeneous streams while relaxing the reference-modality requirement. Our communication-delay-aware framework achieves robust real-time inference with finer-grained control over the accuracy-latency tradeoff. Experiments on the audio-visual event localization (AVEL) task demonstrate superior adaptability to network dynamics compared to SotA approaches.
 
 <div align="center"><img src="https://github.com/user-attachments/assets/b0be82e7-c419-40b8-b88a-e50827381d74" width=55%></div>
+
+## Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access
+
+[![arXiv](https://img.shields.io/badge/arXiv-2607.01921-b31b1b.svg)](https://arxiv.org/abs/2607.01921)
+
+:octocat: **Repository:** https://github.com/joaohis/SemCR
+
+**Authors:** João Henrique Inacio de Souza, Mattia Merluzzi, Mateus P. Mota, Beatriz Soret, Petar Popovski
+
+*Paper accepted for presentation at IEEE SPAWC 2026.*
+
+**Abstract:** Communication systems designed for reliable data reconstruction, rather than task-oriented communication, typically rely on separate source and channel coding and incur high latency under limited spectrum availability and fading channels. To address this, we propose a transmission framework with opportunistic spectrum access, in which the transmitter sends discrete latent representations learned via a vector-quantized variational autoencoder (VQ-VAE) over idle licensed channels using standard digital modulation. The AI-powered receiver is still able to reconstruct task-related information from the heavily compressed data. We develop a cross-layer latency model that accounts for compression, block errors, retransmissions, and stochastic channel access. Results on latency-accuracy trade-offs show that the proposed scheme achieves at least 79- and 3.3-fold latency reductions with only 5.7% and 2.4% drops in classification accuracy compared to benchmarks using conventional source and channel coding. The framework enables low-latency communication and reliable task execution even under limited spectrum availability and challenging channel conditions.
+
+<div align="center"><img max-width="2115" src="https://github.com/user-attachments/assets/d325234d-e7f1-4523-a476-88d6e55f90a8" /></div>
